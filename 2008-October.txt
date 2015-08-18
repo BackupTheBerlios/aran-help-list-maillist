@@ -1,0 +1,137 @@
+From flightzyf at 126.com  Tue Oct 21 12:37:18 2008
+From: flightzyf at 126.com (yifeizhang)
+Date: Tue, 21 Oct 2008 18:37:18 +0800
+Subject: [Aran-help-list] about libaran of fmm
+Message-ID: <000001c93368$fe0bc790$fa2356b0$@com>
+
+Dear technicians:
+
+I appreciate your taking the time to review my letter. First I would like to
+thank you for your procedures of 'libaran' about fmm. Recently I am
+calculating some problems about 3d Electrostatic field, but traditional bem
+is very inefficient. so I select the method of fmm to solve the
+shortcomings. when I find your procedures, I'm very Excited. Here I still
+have some question to ask you. 1.Are there lib of fmm that can be used in
+the windows xp? 2. how can I do, if I want to use it in matlab?3.can you
+send me the lib of explanations?(if possible ,I want to do some special
+calculation on the basis of the lib)
+
+So if you could please send me any relevant information about these
+question, I would be grateful.
+
+Thank you for your help in this endeavor.
+
+ 
+
+Sincerely,
+
+ 
+Yifeizhang
+
+ 
+2008.11.21
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/aran-help-list/attachments/20081021/3d5fd1ad/attachment.html>
+
+From peyo at libaran.org  Wed Oct 22 10:13:50 2008
+From: peyo at libaran.org (Pierre Gay)
+Date: Wed, 22 Oct 2008 10:13:50 +0200
+Subject: [Aran-help-list] about libaran of fmm
+In-Reply-To: <000001c93368$fe0bc790$fa2356b0$@com>
+References: <000001c93368$fe0bc790$fa2356b0$@com>
+Message-ID: <495bfef90810220113m7d42537am3943d0d36ac40ca3@mail.gmail.com>
+
+Dear Yifeizhang,
+
+Thank you for your interest on Libaran
+
+First, Aran is developped under linux.
+
+Yesterday,I tried to compile it under Cygwin but it doesn't work
+because mingw compiler doesn't currently support C99 complex numbers.
+It could however compile on another Windows compiler that is able to
+compile glib-2.0 (maybe devc++?).
+
+I'll try to fix this C99 complex problem as soon as I have a little time.
+
+Sorry, but I don't know much of usable fmm libraries on WindowsXP...
+
+Using some C library in matlab can be done by making a wrapper module
+with a specific tool. I don't know much about this myself. Maybe you
+could even try to use some wrapper generator like SWIG
+(http://www.swig.org) to generate a Java wrapper: I heard that matlab
+can execute Java code.
+
+If you want some explanations, you can look at the online
+documentation: API reference
+(http://www.libaran.org/docs/api/html/index.html) and a short document
+about 3D impelentation
+(http://www.libaran.org/docs/notes/development3d.pdf).
+
+I'll be very happy to try to help you if you have further questions.
+
+Best regards,
+
+Pierre Gay
+
+2008/10/21 yifeizhang <flightzyf at 126.com>:
+> Dear technicians:
+>
+> I appreciate your taking the time to review my letter. First I would like to
+> thank you for your procedures of 'libaran' about fmm. Recently I am
+> calculating some problems about 3d Electrostatic field, but traditional bem
+> is very inefficient. so I select the method of fmm to solve the
+> shortcomings. when I find your procedures, I'm very Excited. Here I still
+> have some question to ask you. 1.Are there lib of fmm that can be used in
+> the windows xp? 2. how can I do, if I want to use it in matlab?3.can you
+> send me the lib of explanations?(if possible ,I want to do some special
+> calculation on the basis of the lib)
+>
+> So if you could please send me any relevant information about these
+> question, I would be grateful.
+>
+> Thank you for your help in this endeavor.
+>
+>
+>
+> Sincerely,
+>
+>
+>  Yifeizhang
+>
+>
+>         2008.11.21
+>
+> _______________________________________________
+> Aran-help-list mailing list
+> Aran-help-list at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/aran-help-list
+>
+>
+
+
+From flightzyf at 126.com  Thu Oct 23 12:35:50 2008
+From: flightzyf at 126.com (yifeizhang)
+Date: Thu, 23 Oct 2008 18:35:50 +0800
+Subject: [Aran-help-list] about the fmm
+In-Reply-To: <mailman.45.1224669697.21849.aran-help-list@lists.berlios.de>
+References: <mailman.45.1224669697.21849.aran-help-list@lists.berlios.de>
+Message-ID: <000001c934fb$1ecb10b0$5c613210$@com>
+
+Dear Pierre Gay:
+     Very glad to get your answers. Here I also have some questions . Do you
+have another email address? I want to email your an attachment, but the
+address of  'aran-help-list at lists.berlios.de'   restrict  the size of the
+email. Please tell me another email address.
+	Thank you a lot!
+
+Best regards
+Sincerely,
+
+Yifeizhang
+
+
+
+

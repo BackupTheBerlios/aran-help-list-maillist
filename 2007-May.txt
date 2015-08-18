@@ -1,0 +1,22 @@
+From weix at cs.man.ac.uk  Sun May 27 01:37:46 2007
+From: weix at cs.man.ac.uk (Xin Wei)
+Date: Sun, 27 May 2007 00:37:46 +0100
+Subject: [Aran-help-list] Can I develop micromagnetic field computing using
+	Aran?
+Message-ID: <4658C4CA.5090607@cs.man.ac.uk>
+
+Hi,
+
+
+I am a master student currently doing a project and considering using 
+this Aran to develop a programme to simulate 3d micromagnetic field 
+computing with FMM. Can this library really help? Does anyone have the 
+experience and please give some suggestions? Thanks.
+
+
+regards,
+
+
+Xin
+
+
